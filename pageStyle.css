@@ -1,0 +1,324 @@
+* {
+	box-sizing: border-box;
+}
+
+.navbar {
+	width: 100%;
+	background-color: #555;
+}
+
+.navbar a {
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	
+}
+
+.navbar img {
+	float: left;
+	padding-bottom: 40px;
+	max-width: 50px;
+}
+
+.navbar a:hover {
+	background-color: #207971;
+}
+
+.navbar img:hover {
+	background-color: #207971;
+}
+
+.row1 div {
+	/* border: 1px solid white;  */
+	float: left;
+}
+
+.row1 {
+	margin-bottom: 1em;
+}
+
+.row div {
+	 /* border: 1px solid white; */
+	float: left;
+}
+
+.row {
+	margin-bottom: 1em;
+}
+
+.col-2 {
+	width: 16.66%;
+	float: left;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-6 {
+	width: 50%
+}
+
+/* .logo { */
+
+/* max-width: 50px; */
+
+/* float:left; */
+
+/* } */
+
+body {
+	/* background: */
+	/* url(back2.jpg)no-repeat; */
+	/* background-size:cover;  */
+	background-color: gray;
+}
+
+/* .box { */
+
+/* float: right; */
+
+/* /* border:1px solid none; */
+
+/* } */
+
+/* .box ul li { */
+
+/* width: 120px; */
+
+/* float: left; */
+
+/* margin: 10px auto; */
+
+/* text-align: center; */
+
+/* } */
+
+/* .box ul li { */
+
+/* text-decoration: none; */
+
+/* color: darkgray; */
+
+/* text-transform: uppercase; */
+
+/* } */
+
+/* .box ul li { */
+
+/* color: white; */
+
+/* transition: 0.50s; */
+
+/* padding-left: 25px; */
+
+/* } */
+
+.intro-text {
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	transform: translatey(50%);
+}
+
+.intro-text h1 {
+	font-size: 70px;
+	margin-top: 80px;
+}
+
+.inro-text p {
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+}
+
+/* Styling Navigation (<a> tags)	 */
+
+a:link {
+	color: purple;
+    position: relative;
+    top: 10px;
+
+}
+
+a:visited {
+	color: black;
+}
+
+a:active {
+	color: green;
+}
+
+a:hover {
+	font-size: 20pt;
+}
+
+h1.about-section {
+	text-align: center;
+	position: center;
+}
+
+p.about-section {
+	/* Text	  */
+	/* Change text padding and margin as suitable */
+	/* margin-top: 12px; */
+	/* margin-bottom: 12px; */
+	/* padding:2px; */
+	font-family: Arial, Helvetica, sans-serif;
+	/* ....... */
+	color: white;
+	line-height: 26px;
+	font-style: normal;
+	font-weight: 400;
+	/* margin-top: 12px; */
+	/* margin-bottom: 12px; */
+	text-align: center;
+}
+
+img.about-section {
+	/* Change its width and height */
+	width: 300px;
+	height: 300px;
+	align-items: center;
+}
+
+img.center {
+	position: relative;
+	display: block;
+	width: 50%;
+	margin: auto;
+}
+
+img.home {
+	width: 100%;
+	display: inline;
+}
+
+/* Form */
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical
+}
+
+input[type=submit] {
+	background-color: #4CFF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.x {
+	border-radius: 5px;
+	/* background-color: #f2f2f2; */
+	padding: 400px;
+}
+
+h1.y {
+	text-align: center;
+	color: white;
+	font-size: 50px;
+}
+
+strong, p.y {
+	text-align: center;
+	color: white;
+	font-size: 50px;
+}
+
+table.tab {
+	/* Center alignment. */
+	/* ii. Change the default width. */
+	/* iii. Change background color. */
+	/* margin-left: 20px; */
+	/* margin-bottom: 50px; */
+	/* margin-right: 70px; */
+	/* margin-left: 70px; */
+	background-color: #52847f;
+	width: 50%;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+.b {
+	background-color: #f44336;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 12px;
+}
+
+.b:hover {
+	background-color: #f44336;
+	color: white;
+}
+
+/* @media only screen and (max-width:600px){  */
+
+/* .col-3,.col-9{  */
+
+/* width:100%;  */
+
+/* }  */
+
+/* .col-12,.col-9{ */
+
+/* background-color : green; */
+
+/* } */
+
+/* .box ul li { */
+
+/* position:relative; */
+
+/* right:10%; */
+
+/* width:100%; */
+
+/* float:left; */
+
+/* margin:10px auto; */
+
+/* text-align:center; */
+
+/* text-decoration:none; */
+
+/* color:darkgray; */
+
+/* text-transform:uppercase; */
+
+/* color:white; */
+
+/* } */
+
+/* } */

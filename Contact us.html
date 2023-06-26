@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="pageStyle.css">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0" />
+	<style>
+		@media only screen and (max-width:600px) {
+			.navbar img {
+					float: left;
+					padding-bottom: 10px;
+					max-width: 50px;
+			}
+			.col-2 {
+				width: 100%;
+			}
+
+			.col-12,
+			.col-2 {
+				background-color: #6f9692;
+			}
+
+			.navbar {
+				width: 100%;
+				background-color: #6f9692
+			}
+
+			.col-2 {
+				position: relative;
+				right: 8%;
+
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<script src="JsCode.js"></script>
+	<div class="row1">
+		<div class="navbar">
+			<ul type="none">
+				<div class="col-2">
+					<li><a href="Home.html"><img src="logoc.png" class="logo"></a></li>
+				</div>
+				<div class="col-2">
+					<li><a href="Home.html"> Home </a></li>
+				</div>
+				<div class="col-2">
+					<li><a href="Menu .html"> Menu </a></li>
+				</div>
+				<div class="col-2">
+					<li><a href="Gallery.html"> Gallery </a></li>
+				</div>
+				<div class="col-2">
+					<li><a href="About.html"> ABOUT </a></li>
+				</div>
+				<div class="col-2">
+					<li><a href="Contact us.html"> Contact</a></li>
+				</div>
+			</ul>
+		</div>
+	</div>
+
+	<h1 class="y"> Contact Us </h1>
+	<strong class="y"> Telephone: </strong>
+	<p class="y">(+65) 6737 7788 </p>
+	<br>
+	<strong class="y"> Operating Hours: </strong>
+	<p class="y"> Monday to Friday: 9am - 6pm </p>
+
+	<br>
+	<strong class="y"> By mail: </strong>
+	<p class="y"> Coffee House <br>
+		390 Havelock Road #08-01, King’s Centre<br>
+		Jordan 169662 </p>
+
+
+	<div class="x">
+		<form name="contactForm" onsubmit="return validateform() ">
+			<!-- action="action_page.php" > -->
+			<h2> Write to us: </h2>
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+			<label for="Type">Enquiry Type</label>
+			<select id="Type" name="Type">
+				<option value="enquiry"> Please select enquiry type </option>
+				<option value="online">Online Order Enquiry </option>
+				<option value="feedback">Feedback</option>
+				<option value="other">Other</option>
+			</select>
+
+			<label for="Message">Message :</label>
+			<textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+
+			<input type="submit" value="Submit">
+
+		</form>
+	</div>
+
+
+</body>
+
+</html>
